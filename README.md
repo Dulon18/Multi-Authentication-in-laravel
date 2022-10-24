@@ -10,7 +10,14 @@
 - Add this "$table->boolean('user_type')->default(0);" in user migration file.
 - php artisan make:middleware IsAdmin
     
-    
+## Installation Instructions
+- Clone the repo.
+- Run 'composer install'
+- Run 'cp .env.example .env'
+- Run 'php artisan migrate'
+- Run 'php artisan serve'
+
+   
 ## Output
     
     
